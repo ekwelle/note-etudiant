@@ -47,7 +47,8 @@ public class Main {
 
 		}while(stopperEtudiant == true);
 		
-		System.out.println("les etudiants que vous avez entré sont les suivants: ");
+		System.out.println("les etudiants que vous avez entré ont les suivants: ");
+		//test pour git
 		for(Etudiant etudiant : etudiants){
 			etudiant.toString();
 		}
